@@ -12,6 +12,8 @@
 		F2A9816A22576D2E0068CB89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A9816822576D2E0068CB89 /* Main.storyboard */; };
 		F2A9816C22576D300068CB89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A9816B22576D300068CB89 /* Assets.xcassets */; };
 		F2A9816F22576D300068CB89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A9816D22576D300068CB89 /* LaunchScreen.storyboard */; };
+		F2A98177225770460068CB89 /* UIbuttonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A98176225770460068CB89 /* UIbuttonExt.swift */; };
+		F2A9817922577B010068CB89 /* helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A9817822577B010068CB89 /* helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F2A9816B22576D300068CB89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2A9816E22576D300068CB89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2A9817022576D300068CB89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2A98176225770460068CB89 /* UIbuttonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIbuttonExt.swift; sourceTree = "<group>"; };
+		F2A9817822577B010068CB89 /* helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				F2A9816B22576D300068CB89 /* Assets.xcassets */,
 				F2A9816D22576D300068CB89 /* LaunchScreen.storyboard */,
 				F2A9817022576D300068CB89 /* Info.plist */,
+				F2A98176225770460068CB89 /* UIbuttonExt.swift */,
+				F2A9817822577B010068CB89 /* helpers.swift */,
 			);
 			path = extensionsDanceParty;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2A9816722576D2D0068CB89 /* ViewController.swift in Sources */,
+				F2A98177225770460068CB89 /* UIbuttonExt.swift in Sources */,
 				F2A9816522576D2D0068CB89 /* AppDelegate.swift in Sources */,
+				F2A9817922577B010068CB89 /* helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9WU55MK2SW;
 				INFOPLIST_FILE = extensionsDanceParty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9WU55MK2SW;
 				INFOPLIST_FILE = extensionsDanceParty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
